@@ -1,0 +1,154 @@
+body{
+	background-color:red;
+	margin:0px;
+}
+
+.header{
+	height:450px;
+	background-size:contain; 
+	/* background-size:cover; */
+	background-attachment:fixed;
+}
+.header p{
+	margin:0px;
+	text-align:center;
+	font-size:56px;
+
+	text-shadow:3px 3px 5px black; 
+	letter-spacing:2px;
+	padding-top: 215px;
+	/* color:beige; */
+	/* rgb(16,255,11)
+		#10ff0b
+		#=0-9 a-f
+		rgb=0-255
+	*/
+	
+	/* color:rgb(255,0,255); */
+	/* color:rgba(255,0,0,0.5) */
+	/* color: #3f66ab; */
+	
+}
+
+
+.masodikbl{
+	height:300px;
+	
+	
+}
+
+
+
+.Fejes{
+
+	background-color:lightgray;
+	float: left;
+	width: 50%;
+	height:100%;
+}
+
+.Fejes1{
+	background-color:white;
+	float: right;
+	width: 50%;
+	height:100%;
+	text-align:center;
+	
+}
+
+.Fejes1 img{
+	float:right;
+	
+}
+
+
+.Fejes img{
+	height:70%;
+	/* float:right; */
+	/* width:30%; */
+	top:15%;
+	position:relative;
+	opacity:50%;
+	/* 
+		15% -> 0.15
+		
+
+	*/
+}
+
+
+.szovegkep{
+	width:80%;
+	
+	height:80%;
+	margin:auto;
+	position:relative;
+	top:10%;
+	padding:10px;
+	text-align:center;
+	overflow:scroll;
+	
+}
+h2{
+	margin-top:0;
+}
+
+.szovegkep p{
+	text-align:left;
+	
+}
+
+
+.Fejes2{
+
+	background-color:lightgray;
+	float: right;
+	width: 50%;
+	height:100%;
+	
+}
+
+
+.Fejes2 img{
+	height:70%;
+	 float:right; 
+	
+	top:15%;
+	position:relative;
+}
+.Fejes3{
+	background-color:white;
+	float: left;
+	width: 50%;
+	height:100%;
+	text-align:center;
+	
+}
+
+.Fejes3 img{
+	float:left;
+	
+}
+
+.also{
+	background-image: url("kepek/gyr.jfif");
+}
+
+
+
+
+.felso{
+	background-image: url("kepek/hatter1.jfif");
+}
+
+
+.bal{
+	float:left
+}
+
+
+
+.jobb{
+	float:right;
+	
+}
