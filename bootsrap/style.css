@@ -1,3 +1,8 @@
+body{
+    background-image:url() ;
+}
+
+
 .container{
     background-color:rgba(0, 128, 0, 0.5);
     padding: 3px;
@@ -5,15 +10,11 @@
 
 
 .row{
-    border: 1px solid black;
+    border: 1px solid red;
 
 }
 
-.col{
+.row div{
     border: 1px dotted blue;
-    margin: 3px;
-}
-
-body{
-    background-image:url("kepek/tajkep.jfif") ;
+    margin: 3;
 }
