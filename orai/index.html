@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Űrlap</title>
+</head>
+<body>
+    <h1>Űrlap használat</h1>
+     <form>
+        <div>
+            <legend><b>Szemelyes adatok</b></legend>
+        <p>
+            <label>Név: </label>
+            <input type="text" placeholder="Példa">
+        </p>
+        <p>
+            <label>Email: </label>
+            <input type="email" placeholder="valami@valami.v">
+        </p>
+        <p>
+            <label>Szül. év: </label>
+            <input type="number" value="2000" min="1904" max="2024">
+        </p>
+        <fieldset>
+        <p>
+            <label>Legmagasabb iskolai végzettség: </label>
+            <p>
+            <input type="radio" name="vegzettseg" checked> <label>8 általános</label> 
+            <input type="radio" name="vegzettseg"> <label>Érettségi</label> 
+            <input type="radio" name="vegzettseg"> <label>Egyetem</label> 
+            
+            </p>
+        </p>
+    
+
+    <p>
+             <label>Kedvenc színe(i): </label>
+            <p>
+                 <input type="checkbox" value="zöld"><label>Ződ</label> <br>
+                <input type="checkbox" vaule="kék"><label>KEK W</label> <br>
+                <input type="checkbox" vaule="sarga"><label>Azsiai</label> <br>
+                <input type="checkbox" vaule="piros"><label>Piros</label> <br>
+            </p>
+        </p>
+    </fieldset>
+        <p>
+            <label>Neme: </label>
+            <p>
+                <input type="radio" name="neme"><label>Férfi</label> <br>
+                <input type="radio" name="neme"><label>Kétbetus</label> <br>
+                <input type="radio" name="neme"><label>Ebedloaszal</label> <br>
+                <input type="radio" name="neme"><label>Nigga</label> <br>
+            </p>
+        </p>
+
+        <fieldset>
+        <legend>Valasszon mindegyikbol egyet!</legend>
+
+        <label >Kedvenc automarka</label>
+
+        <select multiple>
+            <option value="Suzuki">Suzuki</option>
+            <option value="BMW">BMW</option>
+            <option value="NISSAN" selected>Nissan</option>
+            <option value="Honda">Honda</option>
+        </select>
+        
+        <label>Kedvenc zenei stilus</label>
+        <input list="Music style">
+        
+        <p>
+        <datalist>
+            <option value="rock">Rock</option>
+            <option value="pop">Pop</option>
+            <option value="Classic">Classic</option>
+            <option value="rap">Rap</option>
+        </datalist>
+        <legend>További vélemények</legend>
+    <textarea name="" id="" row="8" cols="50">Ide várjuk a válaszát</textarea>
+     </form>
+        </p>
+            <input type="button" value="OK" disabled>
+            <input type="submit" value="Kész">
+            <button>Kilépés</button>
+            <input type="reset" value="Visszaállítás">
+        
+    </fieldset>
+</div>
+
+
+    
+</body>
+</html>

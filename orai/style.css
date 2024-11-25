@@ -1,0 +1,20 @@
+body{
+    background-image:url("kepek/hatterfasz.jfif");
+    color: white;
+}
+form{
+    margin: auto;
+    width: 50%;
+    background-color: purple;
+
+}
+h1{
+    text-align: center;
+}
+label{
+    font-weight: bold;
+}
+
+div{
+    padding: 10px;
+}
