@@ -1,20 +1,49 @@
 body{
     background-image:url("kepek/hatterfasz.jfif");
-    color: white;
+    
 }
-form{
-    margin: auto;
-    width: 50%;
-    background-color: purple;
 
-}
+
 h1{
     text-align: center;
+    text-shadow: 5px,5px,5px yellow;
 }
-label{
+form{
+    width: 50%;
+    margin: auto;
+    font-size: 16px;
+    background-color: rgba(0, 100, 0,0.8);
+    /* border: 2px solid black; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: -5px,-5px,8px white;
+}
+legend{
     font-weight: bold;
 }
+fieldset{
+    border: 2px  solid green ;
+    border-radius: 15px;
+}
+    
+.textareaDiv{
+    width: 60%;
+    margin: auto;
+    }
+    
+textarea{
+    width: 100%;
+}
+    
+#csuszka{
+    width: 100%;
+}
 
-div{
-    padding: 10px;
+#formstyle{
+    background-color:rgba(0,0,100,0.8);
+}
+
+
+form#formstyle{
+    background-color:rgba(230, 226, 11, 0.8);
 }
