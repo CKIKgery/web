@@ -47,3 +47,15 @@ textarea{
 form#formstyle{
     background-color:rgba(230, 226, 11, 0.8);
 }
+
+fieldset img {
+    width: 100px;
+    
+}
+
+#imgField
+{
+
+    display: flex;
+    justify-content: space-between;
+}
