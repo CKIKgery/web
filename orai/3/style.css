@@ -1,0 +1,69 @@
+#fejlec{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 10%;
+    color: antiquewhite;
+}
+
+#kozepe{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 15px;
+    padding: 20px;
+    
+    
+}
+
+
+#lablec{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+.kartya{
+    gap:20px;
+    padding:20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: gray;
+}
+
+.kartya img{
+  
+}
+/* ------------------- */
+
+
+nav{
+    background-color: black;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.product-container{
+    display: grid;
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+
+.product-card{
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
