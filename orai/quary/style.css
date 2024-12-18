@@ -1,32 +1,26 @@
-body{
-    background-color: red;
-}
 
 .container{
     display:grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    gap:30px;
 }
-.center{
+.szoveg{
     border:1px solid black;
 }
 
-.left{
-    background-color: rgba(0,0,255,0.63);
+.bal{
+    background-color: red;
 }
-.right{
-    background-color: rgba(12,221,221,0.616);
+.job{
+    background-color:green;
 }
 
 /*Képenyő szélesség*/
 @media (max-width: 768px){
     body{
-    background-color: green;
     }
     .container{
         grid-template-columns: 50% 50%;
-    }
-    .right{
-        grid-column: span 2;
     }
 }
 
@@ -34,7 +28,7 @@ body{
     .container{
         grid-template-columns: 1fr ;
     }
-    .right{
+    .job{
         grid-column: span 1;
     }
 }
