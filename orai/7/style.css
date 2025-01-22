@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(233, 237, 240);
+}
+
+
+nav{
+    text-align: center;
+    background-color: rgb(34, 233, 34);
+    color: white;
+    height: 100px;
+    padding-top: 10px;
+    font-size: large;
+    padding-bottom:50px ;
+    
+}
+
+
+#kuty{
+    width: 10%;
+    height: 30%;
+    transform: rotateY('180deg');
+    transition-timing-function: infinite;
+    transition: 5s;
+}
+
+#kozep{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 15px;
+    padding: 20px;
+    
+}
+
+#doboz{
+    background-color: white;
+    color: gray;
+    text-align: center;
+    background:white ;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow:  0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+}
+
+
+
+#doboz img{
+    border-radius: 8px 8px 8px 8px;
+    height: 80%;
+    width: 100%;
+}
+
+#doboz:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+#doboz:hover h3{
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: rgb(34, 233, 34);
+    color: white;
+    height: 20px;
+    padding-top: 10px;
+}
+
+@media(max-width:992px){
+    #kozep{
+        grid-template-columns: auto auto;
+        grid-row: 2;
+    }
+}
+
+@media(max-width:768px){
+    #kozep{
+        grid-template-columns: auto;
+        grid-row: 4;
+    }
+}
