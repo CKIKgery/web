@@ -18,17 +18,31 @@ nav{
 #kuty{
     width: 10%;
     height: 30%;
-    transform: rotateY('180deg');
-    transition-timing-function: infinite;
-    transition: 5s;
+    animation-name: mozgas;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+
 }
 
 #kozep{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     gap: 15px;
-    padding: 20px;
+    margin: 20px;
     
+}
+
+
+@keyframes mozgas{
+    0%{
+        transform: translateX(-200px);
+    }
+    50%{
+        transform: translateX(200px)scale(-1);
+    }
+    100%{
+        transform: translateX(-200px);
+    }
 }
 
 #doboz{
